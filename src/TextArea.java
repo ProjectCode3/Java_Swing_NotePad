@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class TextArea {
 
-    private JTextArea text = new JTextArea(10, 40);
+    public JTextArea text = new JTextArea(10, 40);
 
     public void draw(JFrame frame){
         frame.getContentPane().add(text, BorderLayout.CENTER);
